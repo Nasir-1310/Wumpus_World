@@ -1,0 +1,4 @@
+Wumpus World documentation :
+1. https://tutorialforbeginner.com/the-wumpus-world-in-artificial-intelligence
+
+2. https://www.geeksforgeeks.org/ai-the-wumpus-world-description/
