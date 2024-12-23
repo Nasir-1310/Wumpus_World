@@ -8,6 +8,7 @@ class Board extends React.Component {
     this.state = {
       agentPositionY: props.agentPositionY,
       agentPositionX: props.agentPositionX,
+
       visitedCells: [],
       board: props.board,
     };
@@ -73,7 +74,7 @@ class Board extends React.Component {
     const content = [];
 
     if (isAgentCell) {
-      content.push(<img key="agent" src="/images/agent.gif" alt="Agent" className="fg" />);
+      content.push(<img key="agent" src="/images/agent2.gif" alt="Agent" className="fg" />);
     } 
 
     if (cellData.includes(WUMPUS) && !isAgentCell) {

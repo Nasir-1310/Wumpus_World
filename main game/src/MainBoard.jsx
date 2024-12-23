@@ -77,7 +77,7 @@ class MainBoard extends React.Component {
     const content = [];
 
     if (isAgentCell) {
-      content.push(<img key="agent" src="/images/agent.gif" alt="Agent" className="fg" />);
+      content.push(<img key="agent" src="/images/agent2.gif" alt="Agent" className="fg" />);
     }
 
     if (cellData.includes(WUMPUS) && !isAgentCell && isVisitedCell) {

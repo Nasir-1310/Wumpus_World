@@ -54,11 +54,11 @@ function App() {
       </header>
 
       <body className="App-body">
-      <a href="https://github.com/Nasir-1310/Wumpus_World" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://github.com/Nasir-1310/Wumpus_World" target="_blank" rel="noopener noreferrer">
         <button className="github-button button-19">
           <IoLogoGithub /> View on GitHub
         </button>
-      </a>
+      </a> */}
         {clicked ? (
           // <div className='container glowing-text'>
             <AgentMoves csvdata={csvdata} userInput={userInput} />
